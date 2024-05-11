@@ -1,0 +1,30 @@
+Sprint 1
+meeting 4 - Scrum Master: Evan
+As a group we planned how we were going to merge our changes.
+we had 3 different merges because of group members not pulling the code and then pushing it.
+However, we fixed this during the meeting by changing branches so we could all pull a working version of the code.
+From there we only had one week left of sprint one but most tasks were done but were not pushed due to merging issues.
+Overall, we should meet our deadline for sprint 1 since this major issue has been fixed.
+
+
+Sprint 2
+Metting 1 - Scrum Master: Francis
+We decided what additional features we would be implementing on our system and divided the tasks up.
+
+Progress bar, Bug fixes - Evan, Tharun
+Friends system & Friend leaderboard - Francis
+Admin Analytics -  Trevor, Rohaan
+Course reviews - Ruwanmi
+Quiz system - Abdullahai
+trending courses - Akash
+
+Primary focus on week one will be bug fixes.
+
+Meeting 2 - Scrum Master: Trevor
+We got together and shared our progress since the previous meeting.
+Majority of the features are almost done however, we discussed encountered bugs with the database, trending courses and admin analytics.
+Admin analytics bug was fixed with code refactoring and how to improve admin page UI was discussed.
+Also decided to refactor the courses page from sprint 1 to implement progress bar.
+Overall, sprint is progressing in a timely manner and features are scheduled to be completed by the end of the week for system testing.
+
+

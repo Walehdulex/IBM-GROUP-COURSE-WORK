@@ -1,0 +1,145 @@
+/* Reset any browser default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header1 {
+    background-color: royalblue; /* Dark blue color */
+    color:#ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 5px solid #add8e6;
+}
+h1{
+    text-align: center;
+    margin-top:10px;
+}
+.info h1, .courses h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.charts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align charts to the top */
+}
+
+.pie-chart, .bar-chart {
+    width: 45%; /* Each chart takes up nearly half of the container width */
+    margin: 0 10px;
+}
+
+
+
+/* Heading styles */
+ .users h2 {
+    text-align: center; /* Centers the headings */
+    color: #333; /* Dark text color for headings */
+    margin-bottom: 20px; /* Adds space below the headings */
+}
+.users {
+    width: 100%;
+    max-height: 500px; /* Adjust the height as needed */
+    overflow-y: auto; /* Scrollbar will appear when content exceeds this height */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+thead {
+    background-color: royalblue; /* A shade of blue */
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DDDDDD; /* Light gray border for rows */
+    font-family: 'Arial', sans-serif;
+
+}
+a {
+    color: #333; /* or any color you prefer */
+    text-decoration: none; /* This removes the underline */
+}
+
+a:hover {
+    text-decoration: underline; /* This adds the underline on hover */
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: lightblue; /* Light gray background on row hover */
+}
+
+/* Style for the Info buttons */
+
+
+/* Scrollbar styling */
+.users::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.users::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the tracking area */
+}
+
+.users::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scroll thumb */
+    border-radius: 10px; /* Rounded corners for the scroll thumb */
+}
+
+.users::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scroll thumb on hover */
+}
+
+/* Back button */
+.back {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.back:hover {
+    transform: translateY(-2px);
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.back a {
+    color: blue;
+    text-decoration: none;
+}
+
+.back a:visited {
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+/* Define the badge style */
+.badge {
+    display: inline-block;
+    border-radius: 10px; /* Adjust the border-radius to make it more oval */
+    border: 2px solid #ffd700; /* Specify the border color (gold) */
+    padding: 3px 8px; /* Adjust padding as needed */
+    background-color: #ffecb3; /* Specify the background color for shading (light gold) */
+    color: #ffd700; /* Specify the text color (gold) */
+    font-weight: bold;
+    margin-left: 5px; /* Adjust spacing between badge and user row */
+}
+
+/* Additional styles for different badge colors */
+/* Silver badge */
+.silver {
+    border-color: #c0c0c0;
+    background-color: #e0e0e0;
+    color: #c0c0c0;
+}
+
+/* Bronze badge */
+.bronze {
+    border-color: #cd7f32;
+    background-color: #d2b48c;
+    color: #cd7f32;
+}
+
+/* Purple badge */
+.purple {
+    border-color: #800080;
+    background-color: #9370db;
+    color: #800080;
+}
+
+/* Green badge */
+.green {
+    border-color: #008000;
+    background-color: #7fff00;
+    color: #008000;
+}
+
+/* Blue badge */
+.blue {
+    border-color: #0000ff;
+    background-color: #add8e6;
+    color: #0000ff;
+}

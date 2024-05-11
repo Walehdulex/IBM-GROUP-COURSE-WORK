@@ -1,0 +1,113 @@
+/* Reset any browser default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header1 {
+    background-color: royalblue; /* Dark blue color */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 5px solid #add8e6;
+}
+h1{
+    text-align: center;
+    margin-top:10px;
+}
+.info h1, .courses h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.charts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align charts to the top */
+}
+
+.pie-chart, .bar-chart {
+    width: 45%; /* Each chart takes up nearly half of the container width */
+    margin: 0 10px;
+}
+
+/* Styling for tables */
+.table-scroll {
+    margin: 20px auto;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 400px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+thead {
+    background-color: royalblue;
+    color: #ffffff;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Back button */
+.back {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.back:hover {
+    transform: translateY(-2px);
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px cornflowerblue;
+}
+
+.back a {
+    color: blue;
+    text-decoration: none;
+}
+
+.back a:visited {
+    color: blue;
+    text-decoration: none;
+}

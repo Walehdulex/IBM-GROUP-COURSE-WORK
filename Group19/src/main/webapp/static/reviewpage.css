@@ -1,0 +1,83 @@
+/* Add CSS styles for the course review page */
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.reviews {
+    margin-bottom: 20px;
+}
+
+.reviews h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.reviews ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reviews ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.leave-review {
+    width: 100%;
+    max-width: 500px;
+}
+
+.leave-review h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.leave-review textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+.leave-review input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.leave-review input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.leave-review .rating {
+    display: flex;
+    justify-content: center;
+}
+
+.leave-review .rating label {
+    font-size: 2em;
+    color: #ccc; /* Initialize all stars to unselected color */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.leave-review .rating label:hover,
+.leave-review .rating input[type="radio"]:checked ~ label {
+    color: #ccc; /* Color for unselected stars */
+}
+
+.leave-review .rating input[type="radio"]:checked ~ label,
+.leave-review .rating label:hover ~ label {
+    color: gold; /* Color for hovered and selected stars */
+}

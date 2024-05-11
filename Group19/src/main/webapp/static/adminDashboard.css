@@ -1,0 +1,127 @@
+/* Reset any browser default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header1 {
+    background-color: royalblue; /* Dark blue color */
+    color:#ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 5px solid #add8e6;
+}
+h1{
+    text-align: center;
+    margin-top:10px;
+}
+#preferencesTable {
+
+    width: 50%; /* Set table width to fill the container */
+    border-collapse: collapse; /* Collapse borders between cells */
+    margin-top: 150px; /* Add some space above the table */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures the border-radius is applied over child elements */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+#preferencesTable tr:last-child td {
+    border-bottom: none; /* Removes bottom border for the last row */
+}
+
+#preferencesTable tr:first-child td:first-child {
+    border-top-left-radius: 10px; /* Rounds the top-left corner */
+}
+
+#preferencesTable tr:first-child td:last-child {
+    border-top-right-radius: 10px; /* Rounds the top-right corner */
+}
+
+#preferencesTable tr:last-child td:first-child {
+    border-bottom-left-radius: 10px; /* Rounds the bottom-left corner */
+}
+
+#preferencesTable tr:last-child td:last-child {
+    border-bottom-right-radius: 10px; /* Rounds the bottom-right corner */
+}
+
+#preferencesTable th {
+    background-color: royalblue; /* Dark green background for the header */
+    color:#fafafa; /* White text color */
+    padding: 10px; /* Add padding for aesthetic spacing */
+    text-align: center; /* Align header text to the left */
+    font-family: 'Arial', sans-serif;
+}
+
+#preferencesTable td {
+    padding: 10px; /* Add padding for aesthetic spacing */
+    border-bottom: 1px solid #ddd; /* Light grey border below each row for separation */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#preferencesTable tr:hover {
+    background-color: lightblue /* Add a hover effect for each row */
+}
+
+#preferencesTable button{
+    background-color: royalblue;
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for color, elevation, and shadow */
+    cursor: pointer; /* Change cursor to pointer on hover over the button */
+}
+
+#preferencesTable button:hover{
+    background-color: lightblue; /* Lighter shade of blue */
+    transform: translateY(-2px); /* Move the button up slightly to create an elevation effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow to enhance the elevation effect */
+}
+
+.logout{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #f4f4f4;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove default link underline */
+    font-family: 'Lato', sans-serif;
+    padding:8px;
+}
+
+/* Enhancing hover effect for navigation links */
+.logout:hover {
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow for a lift effect */
+}
+
+/* Underline effect for navigation links */
+.logout::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:  #2c3e50;
+    transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.logout:hover::before{
+    background-color: #2c3e50;
+    width: 100%;
+}

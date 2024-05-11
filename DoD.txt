@@ -1,0 +1,5 @@
+Runs as expected
+Has been tested
+Final design agreed upon by everyone
+Has been peer reviewed by 3 members
+Has been documented
